@@ -16,13 +16,13 @@ The files contain two sections: `examples`, which contains the user questions, a
 
 * `examples` : These are used to define questions entered by the users. 
 	- `id` : Unique id for the example within the file. 
-	- `source` : Defines the dataset source where where we should look for the associated passage.
+	- `source` : Defines the dataset source (e.g., Quebec FAQ website) where we should look for the associated passage.
 	- `question` : Question from the user.
 	- `passage_id` : The id of the associated passage. 
 
 * `passages` : These define the question-answer pairs, to which examples are associated. These also specify whether a particular example is in distribution, or out of distribution. 
 	- `passage_id` : The unique id of the passage. 
-	- `source` : Defines the dataset source. I.e., where the passage has been esxtracted from.
+	- `source` : Defines the dataset source. I.e., where the passage has been extracted from.
 	- `uri`: Defines the uri from which the passage is taken. Note it may point to a local copy if we scraped the data.
 	- `reference_type` : Defines whether this is a in-distribution passage that can be used to match the user question (starts with `faq`), or if this passage is associated to out-of-distribution question (does not start with `faq`, e.g. `noisy-or-ood`).
 	- `reference` : 
