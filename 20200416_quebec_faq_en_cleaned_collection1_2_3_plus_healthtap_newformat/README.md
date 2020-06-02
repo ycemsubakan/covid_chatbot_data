@@ -19,7 +19,7 @@
 	- `uri`: defines the uri from which the passage is taken. E.g. for the quebec faq, this points to the files of the scrape. 
 	- `reference_type` : defines whether this is an entry for an In distribution (`faq`), or an out-of-distribution (`noisy-or-ood`) entry. 
 	- `reference` : 
-		- `page_title` : defines the highest level header of the webpage. Gives an idea on the topic.
+		- `page_title` : defines the highest level header of the webpage. Gives an idea on the topic, if present.
 		- `section_header` : The ground truth question. 
 		- `section_content` : The answer associated with the question. 
 		- `selected_span` : Currently unused. 
