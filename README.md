@@ -2,6 +2,10 @@
 
 Repository for the crowdsourced data for the COVID-19 chatbot project. 
 
+## Note
+You need git lfs installed to properly clonde the files - see: https://git-lfs.github.com/
+
+## Folder format
 * `[date]_[province]_[language]_[cleaned|noisy]_collection_[collection_id+]` : these folders contain training files. (Including training results also)
 
 	- Province field indicates which province is the file for.
