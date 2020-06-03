@@ -1,6 +1,6 @@
 # covid_chatbot_data
 
-The repository for the crowdsourced data for the COVID-19 chatbot project. 
+Repository for the crowdsourced data for the COVID-19 chatbot project. 
 
 * `[date]_[province]_[language]_[cleaned|noisy]_collection_[collection_id+]` : these folders contain training files. (Including training results also)
 
