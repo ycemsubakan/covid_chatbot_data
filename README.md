@@ -1,4 +1,4 @@
-# covid_chatbot_data
+# A question-answer dataset for questions related to COVID-19 crisis.  
 
 Repository for the crowdsourced data for the COVID-19 chatbot project. We used the crowdsourcing platform mechanical turk (https://www.mturk.com/) to obtain paraphrases for a given FAQ question from the `https://quebec.ca` website regarding the Coronavirus crisis. The output from the mturk platform contains a ground truth FAQ question, an “answer” that corresponds to the original FAQ question user question, and a paraphrase that is written by the turker that corresponds a given ground-truth FAQ question-answer pair. 
 
