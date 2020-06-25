@@ -2,7 +2,7 @@
 
 Repository for the crowdsourced data for the COVID-19 chatbot project. We used the crowdsourcing platform mechanical turk (https://www.mturk.com/) to obtain paraphrases for a given FAQ question from the `https://quebec.ca` website regarding the Coronavirus crisis. The output from the mturk platform contains a ground truth FAQ question, an “answer” that corresponds to the original FAQ question user question, and a paraphrase that is written by the turker that corresponds a given ground-truth FAQ question-answer pair. 
 
-Npte that we crowdsourced this data for the 16-04-2020 scrape from the `https://quebec.ca` website.
+Note that we crowdsourced this data for the 16-04-2020 scrape from the `https://quebec.ca` website.
 
 ## Note
 You need git lfs installed to properly clone the files - see: https://git-lfs.github.com/
