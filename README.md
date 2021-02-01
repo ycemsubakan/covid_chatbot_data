@@ -4,6 +4,8 @@ Repository for the crowdsourced data for the COVID-19 chatbot project. We used t
 
 Note that we crowdsourced this data for the 16-04-2020 scrape from the `https://quebec.ca` website. This scrape contains 313 FAQ question-answer pairs. The train set on average contains 16 paraphrases per ground truth FAQ question. The validation set contains 5 paraphrases per ground truth FAQ question. 
 
+The abstract that we submitted to the 2020 edition of Montreal AI Symposium is provided in `mais_abstract.pdf`, and the corresponding poster presentation is provided in `mais_poster.pdf`.  
+
 ## Note
 You need git lfs installed to properly clone the files - see: https://git-lfs.github.com/
 
