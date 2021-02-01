@@ -43,10 +43,10 @@ This data can be used to train a prediction system able to 1) match a user quest
 
 ## Match a question with a master question.
 Given an `example`, the associated `question` can be the input for the prediction system. To get the target, first find the `passage_id`, and use it to find the related passage in the `passages` list. At this point, there can be two options:
-* The passage `reference_type` does not start with `faq`. This means that the question shold be classified as out-of-distribution (i.e., the system is not able to answer this question, possibly because out of topic, or too generic) from the prediction system.
+* The passage `reference_type` does not start with `faq`. This means that the question should be classified as out-of-distribution (i.e., the system is not able to answer this question, possibly because out of topic, or too generic) from the prediction system.
 * The passage `reference_type` starts with `faq`. Then the prediction system should associate the question to this passage FAQ question, which is the last element in the list `section_headers`.
 
 ## Match a question with an answer.
 Given an `example`, the associated `question` can be the input for the prediction system. To get the target, first find the `passage_id`, and use it to find the related passage in the `passages` list. At this point, there can be two options:
-* The passage `reference_type` does not start with `faq`. This means that the question shold be classified as out-of-distribution (i.e., the system is not able to answer this question, possibly because out of topic, or too generic) from the prediction system.
+* The passage `reference_type` does not start with `faq`. This means that the question should be classified as out-of-distribution (i.e., the system is not able to answer this question, possibly because out of topic, or too generic) from the prediction system.
 * The passage `reference_type` starts with `faq`. Then the prediction system should associate the question to this passage FAQ content, which is `section_content`.
